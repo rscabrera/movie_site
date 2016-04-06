@@ -11,10 +11,14 @@ avatar = media.Movie("Avatar",
                     "http://upload.wikimedia.org/wikipedia/id/b/b0/Avatar-Teaser-Poster.jpg",
                     "https://www.youtube.com/watch?v=iguEy4fFQAw")
 
+#Star Wars VI was my favirote movie of the year
+
 star_wars = media.Movie("Star Wars: A Force Awakens",
                         "Three decades after the defeat of the Galactic Empire, a new threat arises. The First Order attempts to rule the galaxy and only a ragtag group of heroes can stop them, along with the help of the Resistance.",
                         "https://upload.wikimedia.org/wikipedia/en/a/a2/Star_Wars_The_Force_Awakens_Theatrical_Poster.jpg",
                         "https://www.youtube.com/watch?v=gAUxw4umkdY")
+
+#School of Rock is my all time favirote movie
 
 school_of_rock = media.Movie("School of Rock",
                             "Using rock music to learn",
@@ -32,4 +36,5 @@ hunger_games = media.Movie("Hunger Games",
                             "https://www.youtube.com/watch?v=PbA63a7H0bo")
 
 movies = [toy_story, avatar, star_wars, school_of_rock, ratatouille, hunger_games]
+#fresh_tomatoes is a file that pushes my app to a web page.
 fresh_tomatoes.open_movies_page(movies)
